@@ -1,0 +1,405 @@
+/*font-family: 'Titillium Web', sans-serif;*/
+
+/* Font CSS Start
+=============================================================== */
+
+body,
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #181818;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 25.5px;
+	font-weight: 600;
+	line-height: 60px;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 45px;
+}
+
+h3 {
+	font-size: 16.5px;
+	font-weight: 600;
+	line-height: 36px;
+}
+
+h4 {
+	font-size: 15px;
+	line-height: 28px;
+	font-weight: 500;
+}
+
+h5 {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+h6 {
+	font-size: 10px;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+a {
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+blockquote {
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 300;
+}
+img{
+	max-width: 100%;
+}
+/* Font CSS End
+=============================================================== */
+
+.header-area{
+	background: url(../images/slider-2.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.header-area:after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #000000b3;
+	top: 0;
+	left: 0;
+}
+.header-top{
+	padding: 20px 0;
+	z-index: 1000;
+	position: relative;
+}
+.header-logo{}
+.header-logo img{
+	z-index: 1000;
+}
+.header-icon{
+	float: right;
+	padding-top: 25px;
+}
+.header-icon ul{
+	margin: 0;
+	padding: 0;
+}
+.header-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 15px;
+}
+.header-icon ul li a{}
+.header-icon ul li a i{
+	border: 1px solid;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	padding-top: 10px;
+	color: #ffffff;
+} 
+.header-manu{
+	position: relative;
+	z-index: 1000;
+}
+.button .navbar-toggler {
+	background: white;
+}
+.header-manu .navbar-expand-lg {
+	padding: 0;
+}
+.header-manu .navbar-expand-lg .navbar-nav .nav-link {
+	color: #ffffff;
+	font-size: 14px;
+	padding-right: 38px;
+	padding-left: 0px;
+}
+.header-videos{
+	padding-top: 250px;
+	padding-bottom: 80px;
+	position: relative;
+	z-index: 1000;
+}
+.header-videos img{
+	width: 100%;
+	height: 310px;
+	border: 2px solid #bcba99;
+}
+/*kifaru-area*/
+.kifaru-area{
+	padding: 55px 0;
+}
+.kifaru-text{
+	text-align: center;
+}
+.kifaru-text h1{
+	text-transform: uppercase;
+	position: relative;
+}
+.kifaru-text h1:after{
+	position: absolute;
+	content: "";
+	top: 40px;
+	left: 50%;
+	background: url(../images/border.png);
+	background-position: center bottom;
+	background-size: cover;
+	width: 96px;
+	height: 43px;
+	background-repeat: no-repeat;
+	margin-left: -48px;
+}
+.kifaru-para{
+	padding-top: 20px;
+}
+.kifaru-btn{
+	background: #bcba99;
+	color: white;
+	width: 320px;
+	height: 65px;
+	border-radius: 2px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 40px;
+	z-index: 1000;
+	position: relative;
+}
+.kifaru-text img{
+	z-index: 1000;
+	margin-top: -108px;
+}
+/*online-training-area*/
+.online-training-area{
+	background: #f6f5f5;
+	padding: 60px 0;
+}
+.online-all-item{}
+.online-single-item{
+	background: #fff;
+	padding: 10px;
+}
+.online-single-item img{
+	width: 100%;
+	height: auto;
+}
+.online-text{}
+.online-text h3{
+	text-transform: uppercase;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+.online-text a{
+	text-decoration: none;
+}
+.online-text h5{
+	background: #bcba99;
+	width: 100px;
+	height: 36px;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	padding-top: 6px;
+}
+/*sing-up-area*/
+.sing-up-area{
+	background: url(../images/si-3.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	padding: 80px 0;
+}
+.sing-up-text{
+	padding: 12px 0;
+}
+.sing-up-text h2{
+	text-transform: uppercase;
+	padding: 15px 0;
+}
+.sing-form-group{}
+.sing-email{
+	width: 90%;
+	height: 40px;
+	padding-left: 10px;
+	margin-bottom: 24px;
+	background: #f5f5f5;
+	border: 1px solid #dedddd;
+}
+.sing-btn{
+	background: #bcba99;
+	width: 124px;
+	color: white;
+	font-size: 14px;
+	border-radius: 2px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+}
+/*student-area*/
+.student-area{
+	padding: 80px 0;
+}
+.student-img{
+	padding: 20px 0;
+}
+.student-img img{
+	border-radius: 183px;
+	border: 4px solid #d8d8d8;
+	width: 235px;
+	height: 235px;
+	margin-left: 65px;
+	background-color: #f2f2f2;
+}
+.student-text{
+	padding: 20px 0;
+}
+.student-text h1{
+	text-transform: uppercase;
+}
+.student-text h2{
+	font-weight: 500;
+	margin-top: -38px;
+}
+.student-text p{}
+/*footer-area*/
+.footer-area{
+	background: #303030;
+	padding-top: 70px;
+}
+.footer-top-about{}
+.footer-top-about h3{
+	text-transform: uppercase;
+	color: #fff;
+}
+.footer-top-about p{
+	color: #b3b3b3;
+}
+.footer-top-location{}
+.footer-top-location h3{
+	text-transform: uppercase;
+	color: #fff;
+}
+.footer-top-location ul{
+	margin: 0;
+	padding: 0;
+}
+.footer-top-location ul li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+.footer-top-location ul li a{
+	color: #b3b3b3;
+	text-decoration: none;
+}
+.footer-top-location ul li a span{
+	padding-left: 22px;
+}
+.footer-top-location ul li a i{
+	padding-right: 8px;
+	font-size: 12px;
+	color: white;
+}
+.footer-top-follow{}
+.footer-top-follow h3{
+	text-transform: uppercase;
+	color: #fff;
+}
+.footer-top-follow .header-icon{
+	float: left;
+}
+.footer-top-follow .header-icon ul li{
+	margin-right: 15px;
+	margin-left: 0px;
+	margin-top: -5px;
+}
+.footer-top-follow .header-icon ul li a i{
+	border-color: #b3b3b3;
+	color: #b3b3b3;
+}
+.footer-manu .navbar-nav li{
+	padding-left: 4px;
+}
+.footer-manu .navbar-expand-lg .navbar-nav .nav-link {
+	color: #dadada;
+}
+.footer-bottom{
+	padding: 10px 0;
+	background: #292929;
+	text-align: center;
+}
+.footer-bottom p{
+	color: #b3b3b3;
+	margin: 0px;
+}
+.footer-bottom span{
+	color: #5f7187;
+}
+
+
+
+/*Tablet monitor*/
+@media only screen and (max-width: 1199px) {
+	.header-icon {
+		float: right;
+	}
+	.header-manu .navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 30px;
+	}
+	.footer-manu .navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 0px;
+	}
+}
+
+/*Mobile monitor*/
+@media only screen and (max-width: 767px) {
+	.header-icon {
+		float: left;
+	}
+}
+
+/*small mobile monitor*/
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 360px) {
+
+}
